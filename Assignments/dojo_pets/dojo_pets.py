@@ -44,7 +44,7 @@ class Ninja (Pet):
         self.pet = pet
         self.treats = treats
         self.pet_food = pet_food
-        self.nina_pet = Pet(name, type, tricks, health = 100, energy = 100)
+        self.ninja_pet = Pet(name, type, tricks, health = 100, energy = 100)
         Ninja.ninjas.append(self)
 
     @classmethod
@@ -75,6 +75,7 @@ class Ninja (Pet):
         return self
 
 ninja1 = Ninja("Kylie","Underhill", "Cat", "Burger", "10", "Mr. Muffins","Fire","Roll Over", )
+ninja2 = Ninja("Phanton","Gerber","Cat","Chicken Biscuit","15","Lane","Shadow","Plotting Scheme")
 
 ninja1.feed().display_ninja() #Feeding the pet
 print("******************")
@@ -94,7 +95,9 @@ print("******************")
 
 
 
-Ninja.print_all_ninjas()
+# Ninja.print_all_ninjas()
+
+
 
 
 
