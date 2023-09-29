@@ -1,3 +1,5 @@
+# Ask Tyler about .super().method() vs .self.method()
+
 class Pet:
 # implement __init__( name , type , tricks ):
 
@@ -54,7 +56,7 @@ class Ninja (Pet):
 
 # walk() - walks the ninja's pet invoking the pet play() method
     def walk(self):
-        super().play()
+        super().play() #self.pet.play()
         return self
 
 # feed() - feeds the ninja's pet invoking the pet eat() method
